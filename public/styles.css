@@ -1,11 +1,11 @@
-/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
 
 body{
   margin: 20px 40px;
   font-size: 1.2rem;
   letter-spacing: 1px;
-  background:linear-gradient(to right, #BDFFF3 100%, #4AC29A 100%);
+  background:linear-gradient(to right, #6ae9bf, #BDFFF3);
+  background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, ul,h9, li, a, p, input, label, button, div, footer{
@@ -48,6 +48,13 @@ h9
 a{
   text-decoration: none;
 }
+
+.tracks
+{
+  cursor: pointer;
+  color: #444;
+}
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -73,6 +80,11 @@ nav li a{
 .btn{
   border-radius: 15px;
   color: #FFFFFF;
+  background: #4AC29A;
+}
+
+.btn:hover{
+  color: #4AC29A;
   background: #4AC29A;
 }
 
@@ -114,6 +126,13 @@ button{
   padding: 10px 16px;
   letter-spacing: 2px;
 }
+
+button:hover{
+  background: #FFFFFF;
+  border:2px solid #4AC29A;
+  color: #4AC29A;
+}
+
 .error{
   color: #ff0099;
   margin: 10px 2px;
@@ -146,7 +165,8 @@ header .btn{
   display: inline-block;
   font-size: 0.8em;
 }
-.recipes{
+
+.coursees{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
@@ -154,7 +174,7 @@ header .btn{
   margin: 80PX AUTO;
   max-width: 1200px;
 }
-.recipe{
+.coursee{
   display: inline-block;
   border-radius: 15px;
   background: white;
@@ -163,16 +183,16 @@ header .btn{
   padding: 0 20px 30px 20px
 }
 
-.recipe:hover{
+.coursee:hover{
   border: 2px solid #4AC29A;
 }
 
-.recipe h4{
+.coursee h4{
   font-size: 1.2em;
   margin-bottom: 10px;
 }
 
-.recipe img{
+.coursee img{
   width:30%;
   margin-top: 20px;
 }
