@@ -21,4 +21,4 @@ The login and registration functionality plays a very important role next to dat
 The .ejs files serves as an output providing to the user so that the user can see it as a HTML with various Stylings applied using .CSS. To secure the password in database incase the password gets hacked by the decrypter, a bcrypt module is being imported from npm that converts our password into encrypted texts via hash Algorithm. Hence even if an unauthorised user gets the access of the database, he/she won’t be able to know the passwords of the user since they are encrypted using the hash Technology.
 Github Repository Link:
 https://github.com/Ali-asgar-malekpur/Learning_Management_System_Aliasgar
-Website Link: https://mini-weatherforecast.vercel.app/ 
+Website Link: 
